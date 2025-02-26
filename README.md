@@ -1,24 +1,24 @@
 # DeepSeek Chat Application 🌐💬
 
-¡Bienvenido a DeepSeek! Esta es una aplicación de chat interactiva que utiliza la API de DeepSeek para proporcionar respuestas inteligentes y útiles a los usuarios. Este proyecto fue creado para demostrar cómo se puede integrar una API de inteligencia artificial en una aplicación web moderna.
+Welcome to DeepSeek! This is an interactive chat application that uses the DeepSeek API to provide intelligent and useful responses to users. This project was created to demonstrate how an artificial intelligence API can be integrated into a modern web application.
 
-## Tabla de Contenidos 📚
+## Table of Contents 📚
 
-- [Descripción del Proyecto](#descripción-del-proyecto)
-- [Tecnologías Utilizadas](#tecnologías-utilizadas)
-- [Instalación](#instalación)
-- [Configuración](#configuración)
-- [Estructura del Proyecto](#estructura-del-proyecto)
-- [Uso](#uso)
-- [Contribuciones](#contribuciones)
-- [Licencia](#licencia)
-- [Contacto](#contacto)
+- [Project Description](#project-description)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Project Structure](#project-structure)
+- [Usage](#usage)
+- [Contributions](#contributions)
+- [License](#license)
+- [Contact](#contact)
 
-## Descripción del Proyecto 📝
+## Project Description 📝
 
-DeepSeek es una aplicación de chat que permite a los usuarios interactuar con un modelo de inteligencia artificial para obtener respuestas a sus preguntas. La aplicación está diseñada para ser fácil de usar y proporciona una interfaz de usuario atractiva y responsiva.
+DeepSeek is a chat application that allows users to interact with an artificial intelligence model to get answers to their questions. The application is designed to be easy to use and provides an attractive and responsive user interface.
 
-## Tecnologías Utilizadas 🛠️
+## Technologies Used 🛠️
 
 - **Frontend:**
   - HTML5
@@ -30,54 +30,54 @@ DeepSeek es una aplicación de chat que permite a los usuarios interactuar con u
   - Express.js
   - OpenAI API
 
-- **Otros:**
-  - Vercel (para despliegue)
-  - Dotenv (para gestión de variables de entorno)
-  - Body-parser (para parseo de JSON en solicitudes HTTP)
+- **Others:**
+  - Vercel (for deployment)
+  - Dotenv (for environment variable management)
+  - Body-parser (for parsing JSON in HTTP requests)
 
-## Instalación 🛠️
+## Installation 🛠️
 
-Sigue estos pasos para instalar y ejecutar el proyecto en tu máquina local:
+Follow these steps to install and run the project on your local machine:
 
-1. **Clona el repositorio:**
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/JuanBuitrago04/DeepSeekApi.git
    cd DeepSeekApi
    ```
 
-2. **Instala las dependencias del backend:**
+2. **Install backend dependencies:**
    ```bash
    cd backend
    npm install
    ```
 
-3. **Instala las dependencias del frontend:**
+3. **Install frontend dependencies:**
    ```bash
    cd ../frontend
    npm install
    ```
 
-## Configuración ⚙️
+## Configuration ⚙️
 
-1. **Configura las variables de entorno:**
+1. **Configure environment variables:**
 
-   Crea un archivo `.env` en el directorio `backend` y agrega tu clave de API de DeepSeek:
+   Create a `.env` file in the `backend` directory and add your DeepSeek API key:
    ```properties
-   DEEPSEEK_API_KEY=tu_clave_de_api_aquí
+   DEEPSEEK_API_KEY=your_api_key_here
    ```
 
-2. **Inicia el servidor:**
+2. **Start the server:**
    ```bash
    cd backend
    npm start
    ```
 
-3. **Abre el frontend:**
-   Abre el archivo `index.html` en tu navegador preferido.
+3. **Open the frontend:**
+   Open the `index.html` file in your preferred browser.
 
-## Estructura del Proyecto 📂
+## Project Structure 📂
 
-La estructura del proyecto es la siguiente:
+The project structure is as follows:
 
 ```
 DeepSeekApi/
@@ -94,46 +94,46 @@ DeepSeekApi/
 ├── README.md
 ```
 
-## Uso 🚀
+## Usage 🚀
 
-1. **Interfaz de Usuario:**
-   - Al cargar la página, aparecerá un modal explicativo con instrucciones sobre cómo usar la aplicación.
-   - Escribe tu mensaje en el campo de entrada y presiona el botón de enviar (➤) para enviar tu mensaje.
-   - Presiona el botón de limpiar (✖) para limpiar la conversación.
+1. **User Interface:**
+   - When the page loads, an explanatory modal will appear with instructions on how to use the application.
+   - Type your message in the input field and press the send button (➤) to send your message.
+   - Press the clear button (✖) to clear the conversation.
 
-2. **Interacción con la API:**
-   - La aplicación enviará tu mensaje a la API de DeepSeek y mostrará la respuesta en el área de conversación.
+2. **API Interaction:**
+   - The application will send your message to the DeepSeek API and display the response in the conversation area.
 
-## Contribuciones 🤝
+## Contributions 🤝
 
-¡Las contribuciones son bienvenidas! Si deseas contribuir a este proyecto, sigue estos pasos:
+Contributions are welcome! If you want to contribute to this project, follow these steps:
 
-1. **Fork el repositorio.**
-2. **Crea una nueva rama:**
+1. **Fork the repository.**
+2. **Create a new branch:**
    ```bash
-   git checkout -b mi-nueva-rama
+   git checkout -b my-new-branch
    ```
-3. **Realiza tus cambios y haz commit:**
+3. **Make your changes and commit:**
    ```bash
-   git commit -m "Descripción de mis cambios"
+   git commit -m "Description of my changes"
    ```
-4. **Envía tus cambios al repositorio remoto:**
+4. **Push your changes to the remote repository:**
    ```bash
-   git push origin mi-nueva-rama
+   git push origin my-new-branch
    ```
-5. **Abre una solicitud de pull.**
+5. **Open a pull request.**
 
-## Licencia 📄
+## License 📄
 
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENSE` para obtener más detalles.
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
-## Contacto 📧
+## Contact 📧
 
-Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
+If you have any questions or suggestions, feel free to contact me:
 
-- **Correo Electrónico:** [juanbuitrago04@gmail.com](mailto:juanbuitrago04@gmail.com)
+- **Email:** [juanbuitrago04@gmail.com](mailto:juanbuitrago04@gmail.com)
 - **GitHub:** [JuanBuitrago04](https://github.com/JuanBuitrago04)
 
 ---
 
-¡Gracias por visitar DeepSeek! Esperamos que disfrutes usando nuestra aplicación de chat. 😊✨
+Thank you for visiting DeepSeek! We hope you enjoy using our chat application. 😊✨
