@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat con DeepSeek</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon"
+        href="https://media.licdn.com/dms/image/sync/v2/D5627AQGEfKIDceLAfg/articleshare-shrink_800/articleshare-shrink_800/0/1738626850244?e=2147483647&v=beta&t=j5LlLrZ8aaBxmfZKBQrduak_VkQhgBAdz8KMGPK7W6A"
+        type="image/png">
+</head>
+
+<body>
+    <div class="container" style="text-align: center;">
+        <div>
+            <h4><img src="https://custom.typingmind.com/assets/models/deepseek.png" alt="DeepSeek Logo"
+                    style="width: 50px; vertical-align: middle;"> Hi, I'm DeepSeek.</h4>
+        </div>
+
+        <div class="footer">
+            Created by Juan Camilo
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvnrVfmNtKvlkPPTBPHPxLlWTkWDnzmGqLKwrBSKLMPHJvPKpCqswGdbcLNXcrlJVSBbzg" target="_blank">
+                <img src="https://cdn.iconscout.com/icon/free/png-256/free-gmail-2981844-2476484.png" alt="Gmail Icon">
+            </a>
+            <a href="https://github.com/JuanBuitrago04" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/256/25/25231.png" alt="GitHub Icon">
+            </a>
+        </div>
+
+        <div class="chat-container" style="text-align: center;">
+            <div class="chat-box" id="chat-box">
+                <!-- Aquí se mostrarán los mensajes -->
+            </div>
+
+            <div class="input-container">
+                <input type="text" id="user-input" placeholder="Message DeepSeek">
+                <button id="send-button">➤</button>
+                <button id="clear-button" class="clear-button">✖</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Bienvenido a DeepSeek</h2>
+            <p>Esta es una breve explicación de cómo funciona cada cosa en la web:</p>
+            <ul>
+                <li><strong>Campo de entrada:</strong> ✍️ Escribe tu mensaje aquí y presiona el botón de enviar (➤) para enviar tu mensaje.</li>
+                <li><strong>Botón de limpiar (✖):</strong> 🧹 Presiona este botón para limpiar la conversación.</li>
+                <li><strong>Área de conversación:</strong> 💬 Aquí se mostrarán los mensajes enviados y las respuestas de DeepSeek.</li>
+                <li><strong>Íconos de contacto:</strong> 📧 Usa los íconos de Gmail y GitHub para contactarme o ver mi perfil.</li>
+            </ul>
+            <button id="ok-button" class="ok-button">Ok, thank you</button>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
